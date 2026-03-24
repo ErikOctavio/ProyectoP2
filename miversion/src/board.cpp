@@ -28,23 +28,28 @@ Board::~Board()
     
 }
 
-
 Candy* Board::getCell(int x, int y) const
 {
-    return tablero[y][x];
+    if (x >= 0 && x < m_width && y >= 0 && y < m_height)
+    {
+		return tablero[y][x];
+    }
+    return nullptr;
 }
 
 void Board::setCell(Candy* candy, int x, int y)
 {
-    tablero[y][x] = candy;
+    if (x >= 0 && x < m_width && y >= 0 && y < m_height)
+    {
+		tablero[y][x] = candy;
+    }
+    return;
 }
-
 
 int Board::getWidth() const
 {
     return m_width;
 }
-
 
 int Board::getHeight() const
 {
@@ -53,6 +58,11 @@ int Board::getHeight() const
 
 bool Board::shouldExplode(int x, int y) const
 {
+    if (getCell(x, y) == nullptr)
+    {
+        return false;
+	}
+
     int i;
     bool explode = false;
     bool nul = false; 
@@ -80,8 +90,7 @@ bool Board::shouldExplode(int x, int y) const
             }
         }
     
-    
-
+        coincidence = false;
         for(i=1; x-i>=0 && coincidence == false; i++)
         {
             if(tablero[y][x-i] == nullptr || tablero[y][x]->getType() != tablero[y][x-i]->getType())
@@ -108,7 +117,7 @@ bool Board::shouldExplode(int x, int y) const
         {
             if(tablero[y+i][x] == nullptr || tablero[y][x]->getType() != tablero[y+i][x]->getType())
             {
-                coincidence = false;
+                coincidence = true;
             }
             else
             {
@@ -117,11 +126,12 @@ bool Board::shouldExplode(int x, int y) const
         
         } 
 
+        coincidence = false;
         for(i=1; y-i>=0 && coincidence == false && explode != true; i++)
         {
             if(tablero[y-i][x] == nullptr || tablero[y][x]->getType() != tablero[y-i][x]->getType())
             {
-                coincidence = false;
+                coincidence = true;
             }
             else
             {
@@ -145,7 +155,7 @@ bool Board::shouldExplode(int x, int y) const
         {
             if(tablero[y+i][x+i] == nullptr || tablero[y][x]->getType() != tablero[y+i][x+i]->getType())
             {
-                coincidence = false;
+                coincidence = true;
             }
             else
             { 
@@ -153,11 +163,12 @@ bool Board::shouldExplode(int x, int y) const
             }
         }
 
+        coincidence = false;
         for(i=1; y-i>=0 && x-i>=0 && coincidence == false && explode != true; i++)
         {
             if(tablero[y-i][x-i] == nullptr || tablero[y][x]->getType() != tablero[y-i][x-i]->getType())
             {
-                coincidence = false;
+                coincidence = true;
             }
             else
             { 
@@ -171,14 +182,14 @@ bool Board::shouldExplode(int x, int y) const
         }
 
         contador = 1;
-    
+        coincidence = false;
     //diagonales abajo izquierda - arriba derecha
 
         for(i=1; y+i<m_height && x-i>=0 && coincidence == false && explode != true; i++)
         {
             if(tablero[y+i][x-i] == nullptr || tablero[y][x]->getType() != tablero[y+i][x-i]->getType())
             {
-                coincidence = false;
+                coincidence = true;
             }
             else
             { 
@@ -186,11 +197,12 @@ bool Board::shouldExplode(int x, int y) const
             }
         }
 
+        coincidence = false;
         for(i=1; y-i>=0 && x+i<m_width && coincidence == false && explode != true; i++)
         {
             if(tablero[y-i][x+i] == nullptr || tablero[y][x]->getType() != tablero[y-i][x+i]->getType())
             {
-                coincidence = false;
+                coincidence = true;
             }
             else
             {  
@@ -224,7 +236,7 @@ std::vector<Candy*> Board::explodeAndDrop()
         }
         matriz.push_back(rows);
     }
-    while (explosion_happened) 
+    while (explosion_happened)
     {
         explosion_happened = false;
         // Marcar las que van a explotar
@@ -232,7 +244,7 @@ std::vector<Candy*> Board::explodeAndDrop()
         {
             for (int x = 0; x < m_width; ++x)
             {
-                if (shouldExplode(x, y)) 
+                if (shouldExplode(x, y))
                 {
                     matriz[y][x] = true;
                     explosion_happened = true;
@@ -244,7 +256,7 @@ std::vector<Candy*> Board::explodeAndDrop()
         {
             for (int x = 0; x < m_width; ++x)
             {
-                if (matriz[y][x]) 
+                if (matriz[y][x])
                 {
                     Candy* c = getCell(x, y);
                     exploded.push_back(c);
@@ -254,33 +266,34 @@ std::vector<Candy*> Board::explodeAndDrop()
         }
         // Dejar caer las piezas
         bool needs_drops = true;
-        while (needs_drops) 
+        while (needs_drops)
         {
             needs_drops = false;
-            for (int y = 1; y < m_height - 1; ++y)
+            for (int y = 1; y < m_height; ++y)
             {
                 for (int x = 0; x < m_width; ++x)
                 {
-                    if (tablero[y][x] == nullptr && tablero[y-1][x] != nullptr) 
+                    if (tablero[y][x] == nullptr && tablero[y - 1][x] != nullptr)
                     {
                         needs_drops = true;
-                            tablero[y][x] = tablero[y-1][x];
-                            setCell(nullptr, x, y-1);
-                        }
+                        tablero[y][x] = tablero[y - 1][x];
+                        setCell(nullptr, x, y - 1);
                     }
                 }
             }
-            // Reiniciar matriz para la siguiente iteración
-            for (int y = 0; y < m_height; ++y)
+        }
+        // Reiniciar matriz para la siguiente iteración
+        for (int y = 0; y < m_height; ++y)
+        {
+            for (int x = 0; x < m_width; ++x)
             {
-                for (int x = 0; x < m_width; ++x)
-                {
-                    matriz[y][x] = false;
-                }
+                matriz[y][x] = false;
             }
         }
-        return exploded;
+    }
+    return exploded;
 }
+
 bool Board::dump(const std::string& output_path) const
 {
     
@@ -300,7 +313,7 @@ bool Board::dump(const std::string& output_path) const
                 Candy* caramelo = getCell(j, i);
                 if (caramelo == nullptr)
                 {
-                    dumpFitxer << "v ";
+                    dumpFitxer << ". ";
                 }
                 else
                 {
@@ -334,9 +347,7 @@ bool Board::load(const std::string& input_path)
     ifstream loadFitxer;
     loadFitxer.open(input_path);
 
-    int tipoCaramelo;
     int i, j;
-    
 
     if(loadFitxer.is_open())
     {
@@ -344,9 +355,9 @@ bool Board::load(const std::string& input_path)
         int file_width, file_height;
         loadFitxer >> file_width >> file_height;
 
-        for (int i = 0; i < m_height; i++)
+        for (i = 0; i < m_height; i++)
         {
-            for (int j = 0; j < m_width; j++)
+            for (j = 0; j < m_width; j++)
             {
                 tablero[i][j] = nullptr;
             }
@@ -354,9 +365,9 @@ bool Board::load(const std::string& input_path)
 
         char letraCaramelo;
 
-        for (int i = 0; i < m_height; i++)
+        for (i = 0; i < m_height; i++)
         {
-            for (int j = 0; j < m_width; j++)
+            for (j = 0; j < m_width; j++)
             {
                 loadFitxer >> letraCaramelo;
 

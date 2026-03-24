@@ -80,7 +80,8 @@ bool test()
     Candy c(CandyType::TYPE_ORANGE);
     Board b(10, 10);
     b.setCell(&c, 0, 0);
-    imprimirTablero(b);
+	// Para visualizar el tablero
+    //imprimirTablero(b);
     if (b.getCell(0, 0) != &c)
     {
         return false;
@@ -141,8 +142,9 @@ bool testShould()
     {
         b.setCell(&c, 0, y);   
     }
-    imprimirTablero(b);
-    imprimirTableroBool(b);
+    // Para visualizar el tablero
+    //imprimirTablero(b);
+    //imprimirTableroBool(b);
     for(y = 0; y < b.getHeight(); y++)
     {
         if(b.shouldExplode(0,y) == false)
@@ -164,7 +166,9 @@ bool testShould()
     {
         b2.setCell(&c, x, 0);   
     }
-    imprimirTablero(b2);
+    // Para visualizar el tablero
+    //imprimirTablero(b2);
+    //imprimirTableroBool(b2);
     for(x = 0; x < b2.getWidth(); x++)
     {
         if(b2.shouldExplode(x,0) == false)
@@ -185,7 +189,9 @@ bool testShould()
     {
         b3.setCell(&c, x, y);   
     }
-    imprimirTablero(b3);
+    // Para visualizar el tablero
+    //imprimirTablero(b3);
+    //imprimirTableroBool(b3);
     for(x = 0, y = 0; x < b3.getWidth() && y < b3.getHeight(); x++, y++)
     {
         if(b3.shouldExplode(x,y) == false)
@@ -206,7 +212,9 @@ bool testShould()
     {
         b4.setCell(&c, x, y);   
     }
-    imprimirTablero(b4);
+    // Para visualizar el tablero
+    //imprimirTablero(b4);
+    //imprimirTableroBool(b4);
     for(x = b4.getWidth()-1, y = 0; x >= 0 && y < b4.getHeight(); x--, y++)
     {
         if(b4.shouldExplode(x,y) == false)
@@ -254,23 +262,128 @@ bool testBoard()
 
 bool testGettersSetters()
 {
-    //getCell y setCell 
-
-    Board b(10,10);
-    Candy c(CandyType::TYPE_ORANGE);
-    b.setCell(&c, 0, 0);
-    if(b.getCell(0,0) != &c)
-    {
-        return false;
-    }
-
+    Board b(10, 10);
     //getWidth y getHeight
     int boardWidth = b.getWidth();
     int boardHeight = b.getHeight();
-    if(boardWidth != 10 || boardHeight != 10)
+    if (boardWidth != 10 || boardHeight != 10)
     {
         return false;
     }
 
+    //getCell y setCell 
+	if (b.getCell(0, 0) != nullptr || b.getCell(6, 7) != nullptr)
+    {
+        return false;
+	}
+
+    Candy cO(CandyType::TYPE_ORANGE);
+    Candy cB(CandyType::TYPE_BLUE);
+    b.setCell(&cO, 0, 0);
+	if (b.getCell(0, 0) != &cO || b.getCell(0, 0) == &cB)
+    {
+        return false;
+    }
+    if (b.getCell(0, 0)->getType() != CandyType::TYPE_ORANGE)
+    {
+		return false;
+    }
+
+    //OutOfBounds
+	b.setCell(&cB, -1, 8);
+	b.setCell(&cB, 10, 5);
+	b.setCell(&cB, -927, 2354);
+    if (b.getCell(0, -3) != nullptr || b.getCell(10, 5) != nullptr || b.getCell(837, -33) != nullptr)
+    {
+        return false;
+	}
+
     return true; 
+}
+
+bool testExplodeAndDrop()
+{
+    Board b(10, 10);
+	Board b2(10, 10);
+	Board b3(10, 10);
+    Candy cO(CandyType::TYPE_ORANGE);
+    Candy cP(CandyType::TYPE_PURPLE);
+	Candy cR(CandyType::TYPE_RED);
+	Candy cB(CandyType::TYPE_BLUE);
+	Candy cG(CandyType::TYPE_GREEN);
+	Candy cY(CandyType::TYPE_YELLOW);
+    int x, y;
+	b.setCell(&cO, 0, 9);
+	b.setCell(&cO, 1, 9);
+	b.setCell(&cO, 2, 9);
+	b.setCell(&cP, 3, 9);
+	b.setCell(&cR, 1, 8);
+    // Para visualizar el tablero
+    //imprimirTablero(b);
+    //imprimirTableroBool(b);
+	std::vector<Candy*> exploded = b.explodeAndDrop();
+    // Para visualizar el tablero
+    //imprimirTablero(b);
+    //imprimirTableroBool(b);
+    /*std::cout << "Tamany dels explotats: " << exploded.size() << std::endl;
+    for(int i=0; i<exploded.size(); i++)
+    {
+        std::cout << i+1 << " - Apuntant a: " << exploded[i] << std::endl;
+	}*/
+	if (exploded.size() != 3)
+    {
+        return false;
+	}
+
+
+
+    std::string testFile1 = "explodeTest1.txt";
+    if (!b2.load(testFile1))
+    {
+        std::cerr << "Error: No se pudo cargar " << testFile1 << "\n";
+        return false;
+    }
+    // Para visualizar el tablero
+    //imprimirTablero(b2);
+    //imprimirTableroBool(b2);
+    std::vector<Candy*> exploded2 = b2.explodeAndDrop();
+    // Para visualizar el tablero
+    //imprimirTablero(b2);
+    //imprimirTableroBool(b2);
+    /*std::cout << "Tamany dels explotats: " << exploded2.size() << std::endl;
+    for (int i = 0; i < exploded2.size(); i++)
+    {
+        std::cout << i + 1 << " - Apuntant a: " << exploded2[i] << std::endl;
+    }*/
+    if (exploded2.size() != 13)
+    {
+        return false;
+	}
+
+
+
+    std::string testFile2 = "explodeTest2.txt";
+    if (!b3.load(testFile2))
+    {
+        std::cerr << "Error: No se pudo cargar " << testFile2 << "\n";
+        return false;
+    }
+    // Para visualizar el tablero
+    //imprimirTablero(b3);
+    //imprimirTableroBool(b3);
+    std::vector<Candy*> exploded3 = b3.explodeAndDrop();
+    // Para visualizar el tablero
+    //imprimirTablero(b3);
+    //imprimirTableroBool(b3);
+    /*std::cout << "Tamany dels explotats: " << exploded3.size() << std::endl;
+    for (int i = 0; i < exploded3.size(); i++)
+    {
+        std::cout << i + 1 << " - Apuntant a: " << exploded3[i] << std::endl;
+    }*/
+    if (exploded3.size() != 20)
+    {
+        return false;
+    }
+    
+    return true;
 }

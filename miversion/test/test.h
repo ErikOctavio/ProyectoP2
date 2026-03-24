@@ -3,3 +3,4 @@ bool test();
 bool testShould();
 bool testBoard();
 bool testGettersSetters();
+bool testExplodeAndDrop();
