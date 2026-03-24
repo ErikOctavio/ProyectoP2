@@ -1,5 +1,5 @@
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o: \
- /home/erik/drcandy/src/private/sdl_wrapper/image_png.cpp \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/image_png.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -48,9 +48,9 @@ CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h /usr/include/c++/13/cassert \
  /usr/include/assert.h \
- /home/erik/drcandy/src/private/extlibs/libpng/png.h \
- /home/erik/drcandy/src/private/extlibs/libpng/pnglibconf.h \
- /home/erik/drcandy/src/private/extlibs/libpng/pngconf.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/libpng/png.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/libpng/pnglibconf.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/libpng/pngconf.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -75,8 +75,8 @@ CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/erik/drcandy/src/private/sdl_wrapper/debug.h \
- /home/erik/drcandy/src/private/sdl_wrapper/error.h \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/debug.h \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/error.h \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception.h \
  /usr/include/c++/13/bits/exception_ptr.h \

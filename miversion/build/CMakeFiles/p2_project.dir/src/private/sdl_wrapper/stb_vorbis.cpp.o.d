@@ -1,7 +1,7 @@
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o: \
- /home/erik/drcandy/src/private/sdl_wrapper/stb_vorbis.cpp \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/stb_vorbis.cpp \
  /usr/include/stdc-predef.h \
- /home/erik/drcandy/src/private/sdl_wrapper/stb_vorbis.h \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/stb_vorbis.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

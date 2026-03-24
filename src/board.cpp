@@ -25,9 +25,20 @@ Board::Board(int width, int height) : m_width(width), m_height(height)
 
 Board::~Board()
 {
+    int i, j;
+
+    for(i=0; i<m_height; i++)
+    {
+        for(j=0; j<m_width; j++)
+        {
+            if(tablero[i][j] != nullptr)
+            {
+                tablero[i][j] = nullptr;
+            }
+        }
+    }
     
 }
-
 
 Candy* Board::getCell(int x, int y) const
 {
@@ -39,12 +50,10 @@ void Board::setCell(Candy* candy, int x, int y)
     tablero[y][x] = candy;
 }
 
-
 int Board::getWidth() const
 {
     return m_width;
 }
-
 
 int Board::getHeight() const
 {
@@ -207,8 +216,8 @@ bool Board::shouldExplode(int x, int y) const
 
     return explode; 
 
-    }
-    
+}
+
 std::vector<Candy*> Board::explodeAndDrop()
 {
     std::vector<Candy*> exploded;
@@ -281,6 +290,7 @@ std::vector<Candy*> Board::explodeAndDrop()
         }
         return exploded;
 }
+
 bool Board::dump(const std::string& output_path) const
 {
     
@@ -293,26 +303,17 @@ bool Board::dump(const std::string& output_path) const
         
         dumpFitxer << m_height << " " << m_width << "\n";
 
-        for (int i = 0; i < m_height; i++)
+        for(i=0; i<m_height; i++)
         {
-            for (int j = 0; j < m_width; j++)
+            for(j=0; j<m_width; j++)
             {
-                Candy* caramelo = getCell(j, i);
-                if (caramelo == nullptr)
+                if(tablero[i][j] == nullptr)
                 {
-                    dumpFitxer << "v ";
+                    dumpFitxer << EMPTY_CELL << " ";
                 }
                 else
                 {
-                    switch (caramelo->getType())
-                    {
-                        case CandyType::TYPE_RED:    dumpFitxer << "R "; break;
-                        case CandyType::TYPE_GREEN:  dumpFitxer << "G "; break;
-                        case CandyType::TYPE_YELLOW: dumpFitxer << "Y "; break;
-                        case CandyType::TYPE_BLUE:   dumpFitxer << "B "; break;
-                        case CandyType::TYPE_PURPLE: dumpFitxer << "P "; break;
-                        case CandyType::TYPE_ORANGE: dumpFitxer << "O "; break;
-                    }
+                    dumpFitxer << (int)tablero[i][j]->getType() << " "; 
                 }
             }
             dumpFitxer << "\n";
@@ -344,38 +345,32 @@ bool Board::load(const std::string& input_path)
         int file_width, file_height;
         loadFitxer >> file_width >> file_height;
 
-        for (int i = 0; i < m_height; i++)
+        for(i=0; i<m_height; i++)
         {
-            for (int j = 0; j < m_width; j++)
+            for(j=0; j<m_width; j++)
             {
-                tablero[i][j] = nullptr;
+                if(tablero[i][j] != nullptr)
+                {
+                    //delete tablero[i][j];
+                    tablero[i][j] = nullptr;
+                }
             }
         }
-
-        char letraCaramelo;
-
-        for (int i = 0; i < m_height; i++)
+        for(i=0; i<m_height; i++)
         {
-            for (int j = 0; j < m_width; j++)
+            for(j=0; j<m_width; j++)
             {
-                loadFitxer >> letraCaramelo;
-
-                if (letraCaramelo == '.')
+                loadFitxer >> tipoCaramelo;
+                if(tipoCaramelo == EMPTY_CELL)
                 {
                     tablero[i][j] = nullptr;
                 }
                 else
                 {
-                    switch (letraCaramelo)
-                    {
-                        case 'R': tablero[i][j] = &m_rojo; break;
-                        case 'G': tablero[i][j] = &m_verde; break;
-                        case 'Y': tablero[i][j] = &m_amarillo; break;
-                        case 'B': tablero[i][j] = &m_azul; break;
-                        case 'P': tablero[i][j] = &m_morado; break;
-                        case 'O': tablero[i][j] = &m_naranja; break;
-                        default:  tablero[i][j] = nullptr; break;
-                    }
+                    //tablero[i][j] = new Candy((CandyType)tipoCaramelo);
+                    
+                    Candy c((CandyType)tipoCaramelo);
+                    tablero[i][j] = &c;
                 }
             }
         }

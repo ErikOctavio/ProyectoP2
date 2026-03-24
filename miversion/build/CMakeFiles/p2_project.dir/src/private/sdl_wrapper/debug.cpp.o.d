@@ -1,5 +1,5 @@
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o: \
- /home/erik/drcandy/src/private/sdl_wrapper/debug.cpp \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/debug.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstdio \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -29,4 +29,4 @@ CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/c++/13/cstdarg \
- /home/erik/drcandy/src/private/sdl_wrapper/debug.h
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/debug.h

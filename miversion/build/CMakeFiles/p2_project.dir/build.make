@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erik/drcandy
+CMAKE_SOURCE_DIR = /home/erik/drcandy/miversion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erik/drcandy/build
+CMAKE_BINARY_DIR = /home/erik/drcandy/miversion/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/p2_project.dir/depend.make
@@ -70,256 +70,256 @@ include CMakeFiles/p2_project.dir/progress.make
 include CMakeFiles/p2_project.dir/flags.make
 
 CMakeFiles/p2_project.dir/src/board.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/board.cpp.o: /home/erik/drcandy/src/board.cpp
+CMakeFiles/p2_project.dir/src/board.cpp.o: /home/erik/drcandy/miversion/src/board.cpp
 CMakeFiles/p2_project.dir/src/board.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p2_project.dir/src/board.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/board.cpp.o -MF CMakeFiles/p2_project.dir/src/board.cpp.o.d -o CMakeFiles/p2_project.dir/src/board.cpp.o -c /home/erik/drcandy/src/board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p2_project.dir/src/board.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/board.cpp.o -MF CMakeFiles/p2_project.dir/src/board.cpp.o.d -o CMakeFiles/p2_project.dir/src/board.cpp.o -c /home/erik/drcandy/miversion/src/board.cpp
 
 CMakeFiles/p2_project.dir/src/board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/board.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/board.cpp > CMakeFiles/p2_project.dir/src/board.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/board.cpp > CMakeFiles/p2_project.dir/src/board.cpp.i
 
 CMakeFiles/p2_project.dir/src/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/board.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/board.cpp -o CMakeFiles/p2_project.dir/src/board.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/board.cpp -o CMakeFiles/p2_project.dir/src/board.cpp.s
 
 CMakeFiles/p2_project.dir/src/candy.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/candy.cpp.o: /home/erik/drcandy/src/candy.cpp
+CMakeFiles/p2_project.dir/src/candy.cpp.o: /home/erik/drcandy/miversion/src/candy.cpp
 CMakeFiles/p2_project.dir/src/candy.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/p2_project.dir/src/candy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/candy.cpp.o -MF CMakeFiles/p2_project.dir/src/candy.cpp.o.d -o CMakeFiles/p2_project.dir/src/candy.cpp.o -c /home/erik/drcandy/src/candy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/p2_project.dir/src/candy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/candy.cpp.o -MF CMakeFiles/p2_project.dir/src/candy.cpp.o.d -o CMakeFiles/p2_project.dir/src/candy.cpp.o -c /home/erik/drcandy/miversion/src/candy.cpp
 
 CMakeFiles/p2_project.dir/src/candy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/candy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/candy.cpp > CMakeFiles/p2_project.dir/src/candy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/candy.cpp > CMakeFiles/p2_project.dir/src/candy.cpp.i
 
 CMakeFiles/p2_project.dir/src/candy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/candy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/candy.cpp -o CMakeFiles/p2_project.dir/src/candy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/candy.cpp -o CMakeFiles/p2_project.dir/src/candy.cpp.s
 
 CMakeFiles/p2_project.dir/src/controller.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/controller.cpp.o: /home/erik/drcandy/src/controller.cpp
+CMakeFiles/p2_project.dir/src/controller.cpp.o: /home/erik/drcandy/miversion/src/controller.cpp
 CMakeFiles/p2_project.dir/src/controller.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/p2_project.dir/src/controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/controller.cpp.o -MF CMakeFiles/p2_project.dir/src/controller.cpp.o.d -o CMakeFiles/p2_project.dir/src/controller.cpp.o -c /home/erik/drcandy/src/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/p2_project.dir/src/controller.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/controller.cpp.o -MF CMakeFiles/p2_project.dir/src/controller.cpp.o.d -o CMakeFiles/p2_project.dir/src/controller.cpp.o -c /home/erik/drcandy/miversion/src/controller.cpp
 
 CMakeFiles/p2_project.dir/src/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/controller.cpp > CMakeFiles/p2_project.dir/src/controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/controller.cpp > CMakeFiles/p2_project.dir/src/controller.cpp.i
 
 CMakeFiles/p2_project.dir/src/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/controller.cpp -o CMakeFiles/p2_project.dir/src/controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/controller.cpp -o CMakeFiles/p2_project.dir/src/controller.cpp.s
 
 CMakeFiles/p2_project.dir/src/game.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/game.cpp.o: /home/erik/drcandy/src/game.cpp
+CMakeFiles/p2_project.dir/src/game.cpp.o: /home/erik/drcandy/miversion/src/game.cpp
 CMakeFiles/p2_project.dir/src/game.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/p2_project.dir/src/game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/game.cpp.o -MF CMakeFiles/p2_project.dir/src/game.cpp.o.d -o CMakeFiles/p2_project.dir/src/game.cpp.o -c /home/erik/drcandy/src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/p2_project.dir/src/game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/game.cpp.o -MF CMakeFiles/p2_project.dir/src/game.cpp.o.d -o CMakeFiles/p2_project.dir/src/game.cpp.o -c /home/erik/drcandy/miversion/src/game.cpp
 
 CMakeFiles/p2_project.dir/src/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/game.cpp > CMakeFiles/p2_project.dir/src/game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/game.cpp > CMakeFiles/p2_project.dir/src/game.cpp.i
 
 CMakeFiles/p2_project.dir/src/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/game.cpp -o CMakeFiles/p2_project.dir/src/game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/game.cpp -o CMakeFiles/p2_project.dir/src/game.cpp.s
 
 CMakeFiles/p2_project.dir/src/graphics.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/graphics.cpp.o: /home/erik/drcandy/src/graphics.cpp
+CMakeFiles/p2_project.dir/src/graphics.cpp.o: /home/erik/drcandy/miversion/src/graphics.cpp
 CMakeFiles/p2_project.dir/src/graphics.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/p2_project.dir/src/graphics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/graphics.cpp.o -MF CMakeFiles/p2_project.dir/src/graphics.cpp.o.d -o CMakeFiles/p2_project.dir/src/graphics.cpp.o -c /home/erik/drcandy/src/graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/p2_project.dir/src/graphics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/graphics.cpp.o -MF CMakeFiles/p2_project.dir/src/graphics.cpp.o.d -o CMakeFiles/p2_project.dir/src/graphics.cpp.o -c /home/erik/drcandy/miversion/src/graphics.cpp
 
 CMakeFiles/p2_project.dir/src/graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/graphics.cpp > CMakeFiles/p2_project.dir/src/graphics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/graphics.cpp > CMakeFiles/p2_project.dir/src/graphics.cpp.i
 
 CMakeFiles/p2_project.dir/src/graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/graphics.cpp -o CMakeFiles/p2_project.dir/src/graphics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/graphics.cpp -o CMakeFiles/p2_project.dir/src/graphics.cpp.s
 
 CMakeFiles/p2_project.dir/src/main.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/main.cpp.o: /home/erik/drcandy/src/main.cpp
+CMakeFiles/p2_project.dir/src/main.cpp.o: /home/erik/drcandy/miversion/src/main.cpp
 CMakeFiles/p2_project.dir/src/main.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/p2_project.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/main.cpp.o -MF CMakeFiles/p2_project.dir/src/main.cpp.o.d -o CMakeFiles/p2_project.dir/src/main.cpp.o -c /home/erik/drcandy/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/p2_project.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/main.cpp.o -MF CMakeFiles/p2_project.dir/src/main.cpp.o.d -o CMakeFiles/p2_project.dir/src/main.cpp.o -c /home/erik/drcandy/miversion/src/main.cpp
 
 CMakeFiles/p2_project.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/main.cpp > CMakeFiles/p2_project.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/main.cpp > CMakeFiles/p2_project.dir/src/main.cpp.i
 
 CMakeFiles/p2_project.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/main.cpp -o CMakeFiles/p2_project.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/main.cpp -o CMakeFiles/p2_project.dir/src/main.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/NFont/NFont.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/NFont/NFont.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/NFont/NFont.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/NFont/NFont.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/NFont/NFont.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/NFont/NFont.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/NFont/NFont.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/NFont/NFont.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/NFont.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/NFont/SDL_FontCache.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/debug.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/debug.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/debug.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/debug.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/debug.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/debug.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/debug.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/debug.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/image_png.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/image_png.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/image_png.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/image_png.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/image_png.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/image_png.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/image_png.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/image_png.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/image_png.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/keyboard.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/keyboard.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/keyboard.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/keyboard.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/keyboard.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/keyboard.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/keyboard.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/keyboard.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/mouse.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/mouse.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/mouse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/mouse.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/mouse.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/mouse.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/mouse.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/mouse.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/mouse.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/sound.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/sound.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/sound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/sound.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/sound.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/sound.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/sound.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/sound.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sound.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/sprites.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/sprites.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/sprites.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/sprites.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/sprites.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/sprites.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/sprites.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/sprites.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/sprites.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/stb_vorbis.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/stb_vorbis.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/stb_vorbis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/stb_vorbis.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/stb_vorbis.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/stb_vorbis.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/stb_vorbis.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/stb_vorbis.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/stb_vorbis.cpp.s
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o: /home/erik/drcandy/src/private/sdl_wrapper/video.cpp
+CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o: /home/erik/drcandy/miversion/src/private/sdl_wrapper/video.cpp
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o -c /home/erik/drcandy/src/private/sdl_wrapper/video.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o -MF CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o.d -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o -c /home/erik/drcandy/miversion/src/private/sdl_wrapper/video.cpp
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/private/sdl_wrapper/video.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/private/sdl_wrapper/video.cpp > CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.i
 
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/private/sdl_wrapper/video.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/private/sdl_wrapper/video.cpp -o CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.s
 
 CMakeFiles/p2_project.dir/src/util.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/src/util.cpp.o: /home/erik/drcandy/src/util.cpp
+CMakeFiles/p2_project.dir/src/util.cpp.o: /home/erik/drcandy/miversion/src/util.cpp
 CMakeFiles/p2_project.dir/src/util.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/p2_project.dir/src/util.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/util.cpp.o -MF CMakeFiles/p2_project.dir/src/util.cpp.o.d -o CMakeFiles/p2_project.dir/src/util.cpp.o -c /home/erik/drcandy/src/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/p2_project.dir/src/util.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/src/util.cpp.o -MF CMakeFiles/p2_project.dir/src/util.cpp.o.d -o CMakeFiles/p2_project.dir/src/util.cpp.o -c /home/erik/drcandy/miversion/src/util.cpp
 
 CMakeFiles/p2_project.dir/src/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/src/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/src/util.cpp > CMakeFiles/p2_project.dir/src/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/src/util.cpp > CMakeFiles/p2_project.dir/src/util.cpp.i
 
 CMakeFiles/p2_project.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/src/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/src/util.cpp -o CMakeFiles/p2_project.dir/src/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/src/util.cpp -o CMakeFiles/p2_project.dir/src/util.cpp.s
 
 CMakeFiles/p2_project.dir/test/test.cpp.o: CMakeFiles/p2_project.dir/flags.make
-CMakeFiles/p2_project.dir/test/test.cpp.o: /home/erik/drcandy/test/test.cpp
+CMakeFiles/p2_project.dir/test/test.cpp.o: /home/erik/drcandy/miversion/test/test.cpp
 CMakeFiles/p2_project.dir/test/test.cpp.o: CMakeFiles/p2_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/p2_project.dir/test/test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/test/test.cpp.o -MF CMakeFiles/p2_project.dir/test/test.cpp.o.d -o CMakeFiles/p2_project.dir/test/test.cpp.o -c /home/erik/drcandy/test/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/p2_project.dir/test/test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p2_project.dir/test/test.cpp.o -MF CMakeFiles/p2_project.dir/test/test.cpp.o.d -o CMakeFiles/p2_project.dir/test/test.cpp.o -c /home/erik/drcandy/miversion/test/test.cpp
 
 CMakeFiles/p2_project.dir/test/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p2_project.dir/test/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/test/test.cpp > CMakeFiles/p2_project.dir/test/test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/drcandy/miversion/test/test.cpp > CMakeFiles/p2_project.dir/test/test.cpp.i
 
 CMakeFiles/p2_project.dir/test/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p2_project.dir/test/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/test/test.cpp -o CMakeFiles/p2_project.dir/test/test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/drcandy/miversion/test/test.cpp -o CMakeFiles/p2_project.dir/test/test.cpp.s
 
 # Object files for target p2_project
 p2_project_OBJECTS = \
@@ -365,7 +365,7 @@ p2_project: CMakeFiles/p2_project.dir/src/util.cpp.o
 p2_project: CMakeFiles/p2_project.dir/test/test.cpp.o
 p2_project: CMakeFiles/p2_project.dir/build.make
 p2_project: CMakeFiles/p2_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erik/drcandy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable p2_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erik/drcandy/miversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable p2_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/p2_project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -377,6 +377,6 @@ CMakeFiles/p2_project.dir/clean:
 .PHONY : CMakeFiles/p2_project.dir/clean
 
 CMakeFiles/p2_project.dir/depend:
-	cd /home/erik/drcandy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erik/drcandy /home/erik/drcandy /home/erik/drcandy/build /home/erik/drcandy/build /home/erik/drcandy/build/CMakeFiles/p2_project.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/erik/drcandy/miversion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erik/drcandy/miversion /home/erik/drcandy/miversion /home/erik/drcandy/miversion/build /home/erik/drcandy/miversion/build /home/erik/drcandy/miversion/build/CMakeFiles/p2_project.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/p2_project.dir/depend
 

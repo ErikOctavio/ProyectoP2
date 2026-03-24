@@ -101,7 +101,7 @@ bool test()
         {
             return false;
         }
-        std::filesystem::remove(getDataDirPath() + "dump_board.txt");
+        //std::filesystem::remove(getDataDirPath() + "dump_board.txt");
     }
     // Dump and load game
     /*{

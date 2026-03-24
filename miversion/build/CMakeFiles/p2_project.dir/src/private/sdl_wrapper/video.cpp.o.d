@@ -1,15 +1,15 @@
 CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o: \
- /home/erik/drcandy/src/private/sdl_wrapper/video.cpp \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/video.cpp \
  /usr/include/stdc-predef.h \
- /home/erik/drcandy/src/private/sdl_wrapper/keyboard.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_main.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_stdinc.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_config.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_platform.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/begin_code.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/close_code.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_config_minimal.h \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/keyboard.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_main.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_stdinc.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_config.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_platform.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/begin_code.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/close_code.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_config_minimal.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -28,20 +28,20 @@ CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_assert.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_atomic.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_audio.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_error.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_endian.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_assert.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_atomic.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_audio.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_error.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_endian.h \
  /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_mutex.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_thread.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_rwops.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_clipboard.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_cpuinfo.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_mutex.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_thread.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_rwops.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_clipboard.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_cpuinfo.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
@@ -76,36 +76,36 @@ CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_events.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_video.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_pixels.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_rect.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_surface.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_blendmode.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_keyboard.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_keycode.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_scancode.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_mouse.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_joystick.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_gamecontroller.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_quit.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_gesture.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_touch.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_filesystem.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_haptic.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_hints.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_loadso.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_log.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_messagebox.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_power.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_render.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_system.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_timer.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_version.h \
- /home/erik/drcandy/src/private/sdl_wrapper/keyboard_sdl.h \
- /home/erik/drcandy/src/private/sdl_wrapper/mouse.h \
- /home/erik/drcandy/src/private/sdl_wrapper/video.h \
- /home/erik/drcandy/src/private/sdl_wrapper/error.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_events.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_video.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_pixels.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_rect.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_surface.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_blendmode.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_keyboard.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_keycode.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_scancode.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_mouse.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_joystick.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_gamecontroller.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_quit.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_gesture.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_touch.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_filesystem.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_haptic.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_hints.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_loadso.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_log.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_messagebox.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_power.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_render.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_system.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_timer.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_version.h \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/keyboard_sdl.h \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/mouse.h \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/video.h \
+ /home/erik/drcandy/miversion/src/private/sdl_wrapper/error.h \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception.h \
  /usr/include/c++/13/bits/exception_ptr.h \
@@ -215,11 +215,11 @@ CMakeFiles/p2_project.dir/src/private/sdl_wrapper/video.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/iostream \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL_image.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/SDL.h \
- /home/erik/drcandy/src/private/extlibs/SDL_ttf/include/SDL_ttf.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/begin_code.h \
- /home/erik/drcandy/src/private/extlibs/SDL/include/close_code.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL_image.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/SDL.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL_ttf/include/SDL_ttf.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/begin_code.h \
+ /home/erik/drcandy/miversion/src/private/extlibs/SDL/include/close_code.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime \

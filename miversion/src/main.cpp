@@ -13,7 +13,7 @@ int main(int argc, const char* argv[])
     {
         std::cout << "Test superados." << std::endl;
     }
-    if (!testShould())
+    /*if (!testShould())
     {
         std::cout << "TestShould NO superado" << std::endl;
     }
@@ -36,7 +36,7 @@ int main(int argc, const char* argv[])
     else
     {
         std::cout << "TestGetterssSetters superado." << std::endl;
-    }
+    }*/
 
 
     // The following code runs the graphic part

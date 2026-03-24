@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/erik/drcandy/src -I/home/erik/drcandy/src/private/sdl_wrapper -I/home/erik/drcandy/src/private/extlibs/libpng -I/home/erik/drcandy/src/private/extlibs/SDL/include -I/home/erik/drcandy/src/private/extlibs/SDL_ttf/include -I/home/erik/drcandy/test
+CXX_INCLUDES = -I/home/erik/drcandy/miversion/src -I/home/erik/drcandy/miversion/src/private/sdl_wrapper -I/home/erik/drcandy/miversion/src/private/extlibs/libpng -I/home/erik/drcandy/miversion/src/private/extlibs/SDL/include -I/home/erik/drcandy/miversion/src/private/extlibs/SDL_ttf/include -I/home/erik/drcandy/miversion/test
 
 CXX_FLAGS = -std=gnu++20 -Wextra -g3 -O0
 

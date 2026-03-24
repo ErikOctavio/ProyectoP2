@@ -11,7 +11,6 @@
 
 #include "candy.h"
 
-const int EMPTY_CELL = -5;
 /// Default board dimensions
 const int DEFAULT_BOARD_WIDTH = 10;
 const int DEFAULT_BOARD_HEIGHT = 10;
@@ -89,9 +88,16 @@ public:
     int getHeight() const;
 
 private:
-    int m_height = DEFAULT_BOARD_HEIGHT;
-    int m_width = DEFAULT_BOARD_WIDTH;
+    int m_height;
+    int m_width;
     std::vector<std::vector<Candy*>> tablero;
+
+    Candy m_rojo{CandyType::TYPE_RED};
+    Candy m_verde{CandyType::TYPE_GREEN};
+    Candy m_amarillo{CandyType::TYPE_YELLOW};
+    Candy m_azul{CandyType::TYPE_BLUE};
+    Candy m_morado{CandyType::TYPE_PURPLE};
+    Candy m_naranja{CandyType::TYPE_ORANGE};
     /// Students can add as many protected methods and attributes as needed.
 };
 

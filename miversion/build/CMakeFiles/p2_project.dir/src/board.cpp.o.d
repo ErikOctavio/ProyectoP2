@@ -1,6 +1,6 @@
 CMakeFiles/p2_project.dir/src/board.cpp.o: \
- /home/erik/drcandy/src/board.cpp /usr/include/stdc-predef.h \
- /home/erik/drcandy/src/board.h /usr/include/c++/13/string \
+ /home/erik/drcandy/miversion/src/board.cpp /usr/include/stdc-predef.h \
+ /home/erik/drcandy/miversion/src/board.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -131,8 +131,9 @@ CMakeFiles/p2_project.dir/src/board.cpp.o: \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /home/erik/drcandy/src/candy.h \
- /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/erik/drcandy/miversion/src/candy.h /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
